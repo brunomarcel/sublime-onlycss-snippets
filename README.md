@@ -1,6 +1,10 @@
 sublime-onlycss-snippets
 ========================
 
+OnlyCss is a library of snippets CSS made for Sublime Text.
+
+###Usage:
+
 ![Demo](https://raw.githubusercontent.com/brunomarcel/sublime-onlycss-snippets/master/onlycss.gif)
 
 
