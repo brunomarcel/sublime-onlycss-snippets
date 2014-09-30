@@ -1,6 +1,8 @@
 sublime-onlycss-snippets
 ========================
 
+![Demo](https://raw.githubusercontent.com/brunomarcel/sublime-onlycss-snippets/master/onlycss.gif)
+
 
 ### Accordion
 ```html
@@ -54,3 +56,5 @@ sublime-onlycss-snippets
 ```html
   oc-tooltip-left
 ```
+
+## License MIT
