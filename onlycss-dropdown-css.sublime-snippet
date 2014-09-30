@@ -1,0 +1,59 @@
+<snippet>
+    <content><![CDATA[/* OnlyCss Dropdown */
+.ocDropdown{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+  .ocDropdown input{
+    width: 0;
+    margin: 0;
+  }
+  .ocDropdown input:checked + label{
+    border-bottom: 1px solid #fff;
+    border-radius: 5px 5px 0 0;
+  }
+    .ocDropdown input:checked + label:after{
+      top: 5px;
+      
+      -ms-transform: rotate(180deg);
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+    }
+  .ocDropdown input:checked ~ .ocDropdown-content{
+    display: block;
+    margin-top: -1px
+  }
+  .ocDropdown label{
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 35px 10px 20px;
+    position: relative;
+  }
+    .ocDropdown label:after{
+      content: '';
+      border: 7px solid transparent;
+      border-top: 10px solid #282828;
+      position: absolute;
+      top: 13px;
+      right: 9px;
+
+      -webkit-transition: all .3s ease-out;
+      transition: all .3s ease-out;
+    }
+  .ocDropdown .ocDropdown-content{
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: none;
+    font-size: 12px;
+    margin-top: -1px;
+    padding: 10px 20px;
+  }
+	]]></content>
+    <tabTrigger>oc-dropdown</tabTrigger>
+    <description>OnlyCss Dropdown</description>
+    <scope>source.css</scope>
+</snippet>

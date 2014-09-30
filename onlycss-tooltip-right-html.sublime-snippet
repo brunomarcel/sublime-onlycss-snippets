@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[<!-- OnlyCss Tooltip Right -->
+<button type="button" class="ocTooltip ocTooltip-right">${1:text} <span title="${2:tooltip text}"></span></button>
+	]]></content>
+    <tabTrigger>oc-tooltip-right</tabTrigger>
+    <description>OnlyCss Tooltip Right</description>
+    <scope>text.html</scope>
+</snippet>

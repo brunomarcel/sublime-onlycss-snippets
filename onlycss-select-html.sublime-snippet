@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[<!-- OnlyCss Select -->
+<div class="ocSelect">
+	<select name="" id="">
+		<option value="1">${1:option 1}</option>
+		<option value="2">${2:option 2}</option>
+		<option value="3">${3:option 3}</option>
+	</select>
+	<span></span>
+</div>
+	]]></content>
+    <tabTrigger>oc-select</tabTrigger>
+    <description>OnlyCss Select</description>
+    <scope>text.html</scope>
+</snippet>

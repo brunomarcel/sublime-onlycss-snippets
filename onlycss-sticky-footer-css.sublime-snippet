@@ -1,0 +1,32 @@
+<snippet>
+    <content><![CDATA[/* OnlyCss Sticky Footer */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.oc-wrap {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;  
+  min-height: 100%;
+  margin-bottom: -60px; 
+}
+.oc-wrap:after {
+  content: "";
+  display: block;
+}
+.oc-footer, .oc-wrap:after {
+  height: 60px; 
+}
+.oc-footer {
+  background: #f1f1f1;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;  
+  line-height: 60px;
+  text-align: center;
+}
+
+	]]></content>
+    <tabTrigger>oc-sticky-footer</tabTrigger>
+    <description>OnlyCss Sticky Footer</description>
+    <scope>source.css</scope>
+</snippet>

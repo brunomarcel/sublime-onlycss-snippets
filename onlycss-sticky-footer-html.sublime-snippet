@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[<!-- OnlyCss Sticky Footer -->
+<div class="oc-wrap">${1:content}</div>
+<footer class="oc-footer">${2:content footer}</footer>
+	]]></content>
+    <tabTrigger>oc-sticky-footer</tabTrigger>
+    <description>OnlyCss Sticky Footer</description>
+    <scope>text.html</scope>
+</snippet>

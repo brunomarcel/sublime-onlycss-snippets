@@ -1,0 +1,91 @@
+<snippet>
+    <content><![CDATA[/* OnlyCss Modal */
+.ocModal-show{
+  background: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px; 
+  padding: 5px 10px;
+}
+.ocModal input{
+  height: 0;
+  overflow: hidden;
+}
+.ocModal input:checked ~ .ocModal-modal-opacity{
+  height: 100%;
+  opacity: 0.8;
+}
+.ocModal input:checked ~ .ocModal-modal{
+  height: auto;
+  opacity: 1;
+}
+.ocModal .ocModal-modal-opacity{
+  background: #282828;
+  height: 0;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 998
+}
+.ocModal .ocModal-modal{
+  background: #fff;
+  border: #ccc;
+  border-radius: 5px;
+  color: #282828;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px; 
+  height: 0;
+  left: 50%;
+  margin: 0 0 100px -300px;
+  overflow: hidden;
+  position: absolute;
+  top: 200px;
+  width: 600px;
+  z-index: 999
+}
+  .ocModal .ocModal-modal-header,
+  .ocModal .ocModal-modal-body,
+  .ocModal .ocModal-modal-footer{
+    box-sizing: border-box;
+    padding: 10px 20px; 
+  }
+  .ocModal .ocModal-modal-header{
+    border-bottom: 1px solid #ccc;
+    position: relative;
+  }
+    .ocModal .ocModal-modal-header h4,
+    .ocModal .ocModal-modal-body p{
+      margin: 0;
+    }
+    .ocModal .ocModal-modal-header h4{
+      width: 520px;
+    }
+    .ocModal .ocModal-modal-header label{
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 18px;
+      position: absolute;
+      right: 20px;
+      top: 7px;
+    }
+  .ocModal .ocModal-modal-footer{
+    border-top: 1px solid #ccc;
+    overflow: hidden;
+  }
+    .ocModal .ocModal-modal-footer label{
+      background: #f1f1f1;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      cursor: pointer;
+      float: right;
+      padding: 5px 10px;
+    }
+	]]></content>
+    <tabTrigger>oc-modal</tabTrigger>
+    <description>OnlyCss Modal</description>
+    <scope>source.css</scope>
+</snippet>

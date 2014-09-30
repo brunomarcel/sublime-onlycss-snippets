@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[<!-- OnlyCss Tabs -->
+<div class="ocTabs">
+	<div class="ocTabs-wrap">
+		<input type="radio" name="ocTabs-radio" id="ocTabs-radio-1" checked="checked">
+		<label for="ocTabs-radio-1">${1:title}</label>
+		<div class="ocTabs-content">${2:content}</div>
+	</div>
+	<div class="ocTabs-wrap">
+		<input type="radio" name="ocTabs-radio" id="ocTabs-radio-2">
+		<label for="ocTabs-radio-2">${3:title}</label>
+		<div class="ocTabs-content">${4:content}</div>
+	</div>
+	<div class="ocTabs-wrap">
+		<input type="radio" name="ocTabs-radio" id="ocTabs-radio-3">
+		<label for="ocTabs-radio-3">${5:title}</label>
+		<div class="ocTabs-content">${6:content}</div>
+	</div>
+</div>
+	]]></content>
+    <tabTrigger>oc-tab</tabTrigger>
+    <description>OnlyCss Tab</description>
+    <scope>text.html</scope>
+</snippet>

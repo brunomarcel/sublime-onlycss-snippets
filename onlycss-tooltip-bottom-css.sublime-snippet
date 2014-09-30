@@ -1,0 +1,45 @@
+<snippet>
+    <content><![CDATA[/* OnlyCss Tooltip Bottom */
+.ocTooltip-bottom{
+  background: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px; 
+  padding: 5px 10px;
+  position: relative;
+}
+  .ocTooltip-bottom:hover > span{
+    display: block;
+  }
+  .ocTooltip-bottom span{
+    position: absolute;
+    top: 100%;
+    display: none;
+    padding-top: 11px;
+    left: 0;
+    z-index: 10;
+  }
+    .ocTooltip-bottom span:before{
+      background: #282828;
+      border-radius: 5px;
+      color: #f1f1f1;
+      content: attr(title);
+      font-size: 12px;
+      padding: 5px 10px;
+      white-space: nowrap;
+    }
+    .ocTooltip-bottom span:after{
+      border: 5px solid transparent;
+      content: "";
+      border-bottom: 6px solid #282828;
+      position: absolute;
+      top: -3px;
+      left: 4px;
+    }
+	]]></content>
+    <tabTrigger>oc-tooltip-bottom</tabTrigger>
+    <description>OnlyCss Tooltip Bottom</description>
+    <scope>source.css</scope>
+</snippet>

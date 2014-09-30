@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[<!-- OnlyCss Checkbox -->
+<label class="ocCheckbox">
+	<input type="checkbox" />
+	<span></span>
+	<p>${1:text}</p>
+</label>
+	]]></content>
+    <tabTrigger>oc-checkbox</tabTrigger>
+    <description>OnlyCss Checkbox</description>
+    <scope>text.html</scope>
+</snippet>

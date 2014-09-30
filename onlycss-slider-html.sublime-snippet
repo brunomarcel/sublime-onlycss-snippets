@@ -1,0 +1,37 @@
+<snippet>
+    <content><![CDATA[
+<!-- OnlyCss Slider -->
+<div class="ocSlider">
+	<input type="radio" name="ocSlider-radio" id="ocSlider-radio-1" checked="checked" />
+	<div>
+		<img src="${1:http://placehold.it/351x1200}" alt="">
+		<p>${2:text}</p>
+	</div>
+
+	<input type="radio" name="ocSlider-radio" id="ocSlider-radio-2" />
+	<div>
+		<img src="${3:http://placehold.it/352x1200}" alt="">
+		<p>${4:text}</p>
+	</div>
+	<input type="radio" name="ocSlider-radio" id="ocSlider-radio-3" />
+	<div>
+		<img src="${5:http://placehold.it/353x1200}" alt="">
+		<p>${6:text}</p>
+	</div>
+	<label for="ocSlider-radio-3" class="ocSlider-prev ocSlider-arrow ocSlider-arrow-1"></label>
+    <label for="ocSlider-radio-2" class="ocSlider-next ocSlider-arrow ocSlider-arrow-1"></label>
+    <label for="ocSlider-radio-1" class="ocSlider-prev ocSlider-arrow ocSlider-arrow-2"></label>
+    <label for="ocSlider-radio-3" class="ocSlider-next ocSlider-arrow ocSlider-arrow-2"></label>
+    <label for="ocSlider-radio-2" class="ocSlider-prev ocSlider-arrow ocSlider-arrow-3"></label>
+    <label for="ocSlider-radio-1" class="ocSlider-next ocSlider-arrow ocSlider-arrow-3"></label>
+	<nav>
+		<label for="ocSlider-radio-1"></label>
+		<label for="ocSlider-radio-2"></label>
+		<label for="ocSlider-radio-3"></label>
+	</nav>
+</div>
+	]]></content>
+    <tabTrigger>oc-slider</tabTrigger>
+    <description>OnlyCss Slider</description>
+    <scope>text.html</scope>
+</snippet>

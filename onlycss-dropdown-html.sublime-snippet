@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[<!-- OnlyCss Dropdown -->
+<div class="ocDropdown">
+	<input type="checkbox" id="ocDropdown-checkbox" />
+	<label for="ocDropdown-checkbox">${1:title}</label>
+	<div class="ocDropdown-content">${2:content}</div>
+</div>
+	]]></content>
+    <tabTrigger>oc-dropdown</tabTrigger>
+    <description>OnlyCss Dropdown</description>
+    <scope>text.html</scope>
+</snippet>

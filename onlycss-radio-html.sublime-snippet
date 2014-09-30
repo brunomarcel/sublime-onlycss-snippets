@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[<!-- OnlyCss Radio -->
+<label class="ocRadio">
+	<input type="radio" name="ocRadio-radio" />
+	<span></span>
+	<p>${1:text}</p>
+</label>
+	]]></content>
+    <tabTrigger>oc-radio</tabTrigger>
+    <description>OnlyCss Radio</description>
+    <scope>text.html</scope>
+</snippet>

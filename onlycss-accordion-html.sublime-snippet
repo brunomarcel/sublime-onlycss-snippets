@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[<!-- OnlyCss Accordion -->
+<div class="ocAccordion">
+	<ul>
+	  	<li>
+	  		<input type="radio" name="ocAccordion-radio" />
+	  		<strong>${1:title}</strong>
+	  		<div>${2:content}</div>
+	  	</li>
+	  	<li>
+	  		<input type="radio" name="ocAccordion-radio" />
+	  		<strong>${3:title}</strong>
+	  		<div>${4:content}</div>
+	  	</li>
+	  	<li>
+	  		<input type="radio" name="ocAccordion-radio" />
+	  		<strong>${5:title}</strong>
+	  		<div>${6:content}</div>
+	  	</li>
+	</ul>
+</div>
+	]]></content>
+    <tabTrigger>oc-accordion</tabTrigger>
+    <description>OnlyCss Accordion</description>
+    <scope>text.html</scope>
+</snippet>

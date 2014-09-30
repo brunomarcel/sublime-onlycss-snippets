@@ -1,0 +1,106 @@
+<snippet>
+    <content><![CDATA[/* OnlyCss Slider */
+.ocSlider{
+  position: relative;
+  height: 225px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px; 
+}
+  .ocSlider input:checked + div > img{
+    display: block;
+  }
+  .ocSlider #ocSlider-radio-1:checked ~ .ocSlider-arrow-1,
+  .ocSlider #ocSlider-radio-2:checked ~ .ocSlider-arrow-2,
+  .ocSlider #ocSlider-radio-3:checked ~ .ocSlider-arrow-3{
+    display: block;
+  }
+  .ocSlider-arrow{
+    display: none;
+  }
+  .ocSlider #ocSlider-radio-1:checked ~ .ocSlider-arrow-1 ~ nav label:nth-child(1),
+  .ocSlider #ocSlider-radio-2:checked ~ .ocSlider-arrow-2 ~ nav label:nth-child(2),
+  .ocSlider #ocSlider-radio-3:checked ~ .ocSlider-arrow-3 ~ nav label:nth-child(3){
+    background: #282828
+  }
+  .ocSlider div{
+    height: 200px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+    .ocSlider input{
+      opacity: 0;
+    }
+    .ocSlider div img{
+      height: 100%;
+      margin: 0 auto;
+      width: auto;
+    }
+    .ocSlider div p{
+      background: rgba(0,0,0,0.7);
+      bottom: 0;
+      box-sizing: border-box;
+      color: #f1f1f1;
+      left: 0;
+      margin: 0;
+      padding: 10px 20px;
+      position: absolute;
+      width: 100%;
+    }
+    .ocSlider div{
+      opacity: 0;
+      background: #f1f1f1;
+    }
+    .ocSlider input:checked + div{
+      opacity: 1;
+    }
+  .ocSlider .ocSlider-arrow{
+    color: #282828;
+    cursor: pointer;
+    font-size: 40px;
+    line-height: 0;
+    position: absolute;
+    top: 45%;
+    z-index: 1;
+  }
+  .ocSlider .ocSlider-arrow.ocSlider-prev{
+    left: 5px;
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  .ocSlider .ocSlider-arrow.ocSlider-next{
+    right: 5px;
+  }
+  .ocSlider .ocSlider-arrow.ocSlider-next:after,
+  .ocSlider .ocSlider-arrow.ocSlider-prev:after{
+    content: '➧';
+  }
+  .ocSlider nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+  }
+    .ocSlider nav label{
+      border: 1px solid #282828;
+      border-radius: 14px;
+      display: inline-block;
+      height: 14px;
+      margin-top: 5px; 
+      width: 14px;
+      cursor: pointer;
+    }
+	]]></content>
+    <tabTrigger>oc-slider</tabTrigger>
+    <description>OnlyCss Slider</description>
+    <scope>source.css</scope>
+</snippet>

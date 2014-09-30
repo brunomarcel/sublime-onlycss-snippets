@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[<!-- OnlyCss Modal -->
+<label for="ocModal-checkbox" class="ocModal-show">Show Modal</label>
+
+<div class="ocModal">
+	<input type="checkbox" id="ocModal-checkbox"/>
+	
+	<label for="ocModal-checkbox" class="ocModal-modal-opacity"></label>
+	<div class="ocModal-modal">
+		<div class="ocModal-modal-header">
+			<label for="ocModal-checkbox">x</label>
+			<h4>${1:header}</h4>
+		</div>
+		<div class="ocModal-modal-body">
+			<p>${2:text}</p>
+		</div>
+		<div class="ocModal-modal-footer">
+			<label for="ocModal-checkbox">${3:ok}</label>
+		</div>
+	</div>
+</div>
+	]]></content>
+    <tabTrigger>oc-modal</tabTrigger>
+    <description>OnlyCss Modal</description>
+    <scope>text.html</scope>
+</snippet>

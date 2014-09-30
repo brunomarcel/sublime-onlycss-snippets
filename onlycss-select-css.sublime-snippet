@@ -1,0 +1,43 @@
+<snippet>
+    <content><![CDATA[/* OnlyCss Select */
+.ocSelect {
+  position: relative; 
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px; 
+  }
+    .ocSelect select {
+      background: transparent;
+      border: 0;
+      border-radius: 0;
+      font-family: inherit;
+      font-size: inherit;
+      height: 34px;
+      line-height: 1;
+      padding: 5px;
+      width: 100%;
+      -webkit-appearance: none; 
+    }
+    .ocSelect span {
+      background: #f1f1f1;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: -1; 
+    }
+      .ocSelect span:after {
+        content: '';
+        border: 7px solid transparent;
+        border-top: 10px solid #282828;
+        position: absolute;
+        top: 12px;
+        right: 10px; 
+      }
+	]]></content>
+    <tabTrigger>oc-select</tabTrigger>
+    <description>OnlyCss Select</description>
+    <scope>source.css</scope>
+</snippet>

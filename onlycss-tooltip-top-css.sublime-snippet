@@ -1,0 +1,45 @@
+<snippet>
+    <content><![CDATA[/* OnlyCss Tooltip Top */
+.ocTooltip-top{
+  background: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px; 
+  padding: 5px 10px;
+  position: relative;
+}
+  .ocTooltip-top:hover > span{
+    display: block;
+  }
+  .ocTooltip-top span{
+    position: absolute;
+    bottom: 100%;
+    display: none;
+    padding-bottom: 14px;
+    left: 0;
+    z-index: 10;
+  }
+    .ocTooltip-top span:before{
+      background: #282828;
+      border-radius: 5px;
+      color: #f1f1f1;
+      content: attr(title);
+      font-size: 12px;
+      padding: 5px 10px;
+      white-space: nowrap;
+    }
+    .ocTooltip-top span:after{
+      border: 5px solid transparent;
+      content: "";
+      border-top: 6px solid #282828;
+      position: absolute;
+      bottom: -2px;
+      left: 4px;
+    }
+	]]></content>
+    <tabTrigger>oc-tooltip-top</tabTrigger>
+    <description>OnlyCss Tooltip Top</description>
+    <scope>source.css</scope>
+</snippet>

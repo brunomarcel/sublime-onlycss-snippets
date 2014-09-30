@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[<!-- OnlyCss Tooltip bottom -->
+<button type="button" class="ocTooltip ocTooltip-bottom">${1:text} <span title="${2:tooltip text}"></span></button>
+	]]></content>
+    <tabTrigger>oc-tooltip-bottom</tabTrigger>
+    <description>OnlyCss Tooltip Bottom</description>
+    <scope>text.html</scope>
+</snippet>

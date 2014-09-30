@@ -1,0 +1,51 @@
+<snippet>
+    <content><![CDATA[/* OnlyCss Radio */
+.ocRadio{ 
+  display: block;
+  height: 25px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif ;
+  font-size: 14px; 
+  line-height: 25px;
+  position: relative; 
+}
+  .ocRadio input{
+  float: left;
+  opacity: 0;
+  }
+  .ocRadio span{ 
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    display: block;
+    height: 14px;
+    left: 0;
+    margin-top: 5px; 
+    position: absolute;
+    width: 14px;
+  }
+    .ocRadio span:before{
+      content: '';
+      opacity: 0;
+      display: block;
+
+      -webkit-transition: all .3s ease-out;
+      transition: all .3s ease-out;
+    }
+  .ocRadio p{
+    margin: 0;
+  }
+  .ocRadio input:checked + span:before{ 
+    background: #282828;
+    border-radius: 10px;
+    height: 10px;
+    left: 2px;
+    opacity: 1;
+    position: absolute;
+    top: 2px;
+    width: 10px;
+  }
+	]]></content>
+    <tabTrigger>oc-radio</tabTrigger>
+    <description>OnlyCss Radio</description>
+    <scope>source.css</scope>
+</snippet>
